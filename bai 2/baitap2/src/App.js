@@ -6,12 +6,13 @@ import Login from "./components/Login";
 import StudentInfo from "./components/StudentList";
 import Todo from "./components/ListTask";
 import TaskList from "./components/ListTask";
+import StudentList from "./components/StudentList";
 
 function App() {
   return (
     <div className="App">
       <Student/>
-        <StudentInfo/>
+        <StudentList/>
         <TaskList/>
     </div>
   );

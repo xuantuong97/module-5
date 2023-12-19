@@ -20,7 +20,7 @@ const listStudent = [
     }
 ];
 
-let StudentInfo = () => {
+let StudentList = () => {
     return (
         <>
             <h1>Student List</h1>
@@ -48,4 +48,4 @@ let StudentInfo = () => {
     );
 };
 
-export default StudentInfo;
+export default StudentList;
