@@ -9,7 +9,7 @@ let array1 = [
     }
 ]
 
-let names = array1.map(({name}) => name);
-let ages = array1.map(({age}) => age);
-console.log(names);
-console.log(ages);
+array1.forEach(({ name, age }) => {
+    console.log(name);
+    console.log(age);
+});
