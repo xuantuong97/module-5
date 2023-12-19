@@ -2,7 +2,7 @@
 const listStudent = [
     {
         id: 1,
-        name: 'Hữu',
+        name: 'Huu',
         age: 25,
         address: 'DN'
     },
@@ -15,6 +15,12 @@ const listStudent = [
     {
         id: 3,
         name: 'Hieu',
+        age: 23,
+        address: 'DN'
+    },
+    {
+        id: 4,
+        name: 'Hung',
         age: 23,
         address: 'DN'
     }
