@@ -40,8 +40,8 @@ export default function Student(){
                 <td>Contact</td>
                 <td>Country</td>
             </tr>
-            {students.map(student => (
-                <tr>
+            {students.map((student, index) => (
+                <tr key={index}>
                     <td>{student.company}</td>
                     <td>{student.contact}</td>
                     <td>{student.country}</td>
