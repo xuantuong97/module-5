@@ -10,7 +10,7 @@ const TaskList = () => {
 
     const handleAddTask = () => {
         if (task.trim() !== "") {
-            setTaskList([...taskList, task]);
+            setTaskList( prevTaskList => [...prevTaskList, task]);
             setTask("");
         } else {
             alert("Not allow empty");

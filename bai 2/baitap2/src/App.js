@@ -7,13 +7,15 @@ import StudentInfo from "./components/StudentList";
 import Todo from "./components/ListTask";
 import TaskList from "./components/ListTask";
 import StudentList from "./components/StudentList";
+import Counter from "./components/Count";
+
 
 function App() {
   return (
     <div className="App">
       <Student/>
-        <StudentList/>
         <TaskList/>
+        <Counter/>
     </div>
   );
 }
