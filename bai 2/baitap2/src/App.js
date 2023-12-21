@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import "bootstrap/dist/css/bootstrap.css";
 import Student from "./components/Student";
 import Login from "./components/Login";
@@ -9,13 +9,16 @@ import TaskList from "./components/ListTask";
 import StudentList from "./components/StudentList";
 import Counter from "./components/Count";
 
+import ContactForm from "./components/Form";
+import MedicalForm from "./components/KhaiBaoYTe";
+
 
 function App() {
   return (
     <div className="App">
-      <Student/>
-        <TaskList/>
-        <Counter/>
+      <MedicalForm/>
+        {/*<TaskList/>*/}
+        {/*<Counter/>*/}
     </div>
   );
 }
